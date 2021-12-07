@@ -1,0 +1,7 @@
+FROM salesforce/salesforcedx:7.129.0-full
+
+# RUN sfdx update \
+#   && echo y | sfdx plugins:install sfdmu \
+#   && echo y | sfdx plugins:install shane-sfdx-plugins \
+#   && echo y | sfdx plugins:install @dx-cli-toolbox/sfdx-toolbox-package-utils \
+#   && echo y | sfdx plugins:install sfpowerkit
