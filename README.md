@@ -5,6 +5,8 @@ This is the docker image build to be used for the Salesforce DX builds for Steam
 To build, execute the following command: 
 ```
     docker build . -t steampunkfoundry/steampunk-salesforcedx:latest
+    docker build . -t steampunkfoundry/steampunk-salesforcedx:v1.2
+    docker build . -t steampunkfoundry/steampunk-salesforcedx:rc
 ```
 
 To run the image interactive mode, execute the following command:

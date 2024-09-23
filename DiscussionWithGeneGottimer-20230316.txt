@@ -1,0 +1,4 @@
+Discussion
+- try mapping the /root/.npm/_logs folder to local drive to see build logs
+- try starting with the official node image instead of the ubuntu image
+- 

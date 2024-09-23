@@ -1,4 +1,6 @@
-FROM salesforce/salesforcedx:7.129.0-full
+FROM salesforce/salesforcedx:latest-full
+
+RUN sfdx update 
 
 # RUN sfdx update \
 #   && echo y | sfdx plugins:install sfdmu \
