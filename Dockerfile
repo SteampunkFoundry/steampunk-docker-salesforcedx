@@ -78,3 +78,5 @@ RUN yarn global add vlocity --force
 RUN echo 'y' | sf plugins install @dx-cli-toolbox/sfdx-toolbox-package-utils
 RUN echo 'y' | sf plugins install @dx-cli-toolbox/sfdx-toolbox-utils
 RUN echo 'y' | sf plugins install sfdmu
+RUN echo 'y' | sf plugins install @salesforce/sfdx-scanner
+RUN echo 'y' | sf plugins install @salesforce/signups
