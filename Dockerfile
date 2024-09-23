@@ -79,4 +79,4 @@ RUN echo 'y' | sf plugins install @dx-cli-toolbox/sfdx-toolbox-package-utils
 RUN echo 'y' | sf plugins install @dx-cli-toolbox/sfdx-toolbox-utils
 RUN echo 'y' | sf plugins install sfdmu
 RUN echo 'y' | sf plugins install @salesforce/sfdx-scanner
-RUN echo 'y' | sf plugins install @salesforce/signups
+RUN echo 'y' | sf plugins install @salesforce/plugin-signups
